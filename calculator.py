@@ -11,7 +11,10 @@ def multiply(a,b):
     pass
 
 def divide(a,b):
-
+if b == 0:
+        return "Error: Division by zero is undefined."
+    else:
+        return a / b
     pass
 
 def main():
